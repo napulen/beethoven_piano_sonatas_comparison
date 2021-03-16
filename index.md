@@ -9,7 +9,7 @@ Both of these resources can be accessed through the corresponding websites or au
 
 In this website, we show a comparison of the musical content between these two transcriptions, with the objective of improving the overall quality of both transcriptions.
 
-The main objective is to compare the notes in one transcription to the notes of the other one. This should serve as an automatic *peer-review* of each other transcription and, more practically, act as a *wrong-note* finder for both transcriptions.
+**The main objective is to compare the notes in one transcription to the notes in the other transcription. This serves somewhat as a "*peer-review*" of both transcriptions with each other and, more practically, as a *wrong-note* finder for both transcriptions.**
 
 The comparisons were made only at the pitch and duration levels; making sure that the position in the score of one note is the same in both versions. Other attributes (e.g., articulations, dynamics, page layout, etc.) were not compared and are left for future work.
 
