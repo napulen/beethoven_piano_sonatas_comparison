@@ -2,8 +2,8 @@
 
 This site is a dedicated resource presenting a note-by-note comparison between two digital transcriptions of the Beethoven Piano Sonatas:
 
-- Craig Sapp's [Humdrum Transcriptions](http://kern.humdrum.org/search?s=t&keyword=Beethoven)
 - ClassicMan's [MuseScore Transcriptions](https://musescore.com/user/19710/sets/54311)
+- Craig Sapp's [Humdrum Transcriptions](http://kern.humdrum.org/search?s=t&keyword=Beethoven)
 
 Both of these resources can be accessed through the corresponding websites or authors.
 
