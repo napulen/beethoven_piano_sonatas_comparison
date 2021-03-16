@@ -9,7 +9,7 @@ Both of these resources can be accessed through the corresponding websites or au
 
 In this website, we show a comparison of the musical content between these two transcriptions, with the objective of improving the overall quality of both transcriptions.
 
-The main objective is to compare the notes in one transcription to the notes in the other transcription. This serves somewhat as a "peer-review" of both transcriptions with each other and, more hopefully, as a *wrong-note* finder for both transcriptions.
+The main objective is to compare the notes in one transcription to the notes in the other transcription. This serves somewhat as a "peer-review" of both transcriptions with each other and, hopefully, as a *wrong-note* finder for both transcriptions.
 
 The comparisons were made only at the pitch and duration levels; making sure that the position in the score of one note is the same in both versions. Other attributes (e.g., articulations, dynamics, page layout, etc.) were not compared and are left for future work.
 
@@ -65,3 +65,4 @@ The first step to compare them is to convert them into a similar representation.
 The parser for Humdrum data in `music21` is currently unable to handle some elements of the Humdrum syntax. We overcome this by doing slight changes to the Humdrum files. Particularly:
 
 - `sonata06-1.krn`: Removing multiple spines of dynamics in `m25`.
+- `sonata02-1.krn`: Removing multiple voices in left hand of `m52`. Treating them as a single voice arpeggio.
