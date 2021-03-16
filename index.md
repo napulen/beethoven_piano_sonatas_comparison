@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## Digital Collections of Beethoven Piano Sonatas
 
-You can use the [editor on GitHub](https://github.com/napulen/beethoven_piano_sonatas_comparison/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This site is a dedicated resource presenting a note-by-note comparison between two digital transcriptions of the Beethoven Piano Sonatas:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Craig Sapp's [Humdrum Transcriptions](http://kern.humdrum.org/search?s=t&keyword=Beethoven)
+- ClassicMan's [MuseScore Transcriptions](https://musescore.com/user/19710/sets/54311)
 
-### Markdown
+Both of these resources can be accessed through the corresponding websites or by contacting the corresponding authors.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In this website, we show a comparison of the musical content between these two transcriptions, with the objective of improving the overall quality of both transcriptions.
 
-```markdown
-Syntax highlighted code block
+The comparisons were made only at the pitch and duration levels; making sure that the position in the score of one note is the same in both versions. Other attributes (e.g., articulations, dynamics, page layout, etc.) were not compared and are left for future work.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/napulen/beethoven_piano_sonatas_comparison/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The reason why we care about accurate pitch and duration values is because they have implications for musicians who learn from these scores (i.e., preferrably, they don't learn the wrong notes), and because most computational music theory models make use of pitch and duration information only. Thus, we consider it valuable to verify the number of notes that coincide between these two transcriptions, and investigate the differences.
