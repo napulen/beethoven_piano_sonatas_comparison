@@ -1,0 +1,6 @@
+[submodule "beethoven-piano-sonatas"]
+	path = beethoven-piano-sonatas
+	url = https://github.com/craigsapp/beethoven-piano-sonatas.git
+[submodule "functional-harmony-micchi"]
+	path = functional-harmony-micchi
+	url = https://github.com/napulen/functional-harmony-micchi.git
