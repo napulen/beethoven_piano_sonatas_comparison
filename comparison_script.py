@@ -3,7 +3,7 @@ from pathlib import Path
 from difflib import HtmlDiff
 from score_dict import BPSVERSIONS
 
-outputFolder = 'bpsdiff'
+outputFolder = 'assets'
 
 if __name__ == '__main__':
     Path(outputFolder).mkdir(parents=True, exist_ok=True)
@@ -17,11 +17,13 @@ if __name__ == '__main__':
                 continue
             s = parse(score)
             with open(f"{outputFolder}/{n}_{version}.txt", "w") as fd:
+                header = "measure_number\tbeat\toffset\tduration\tnotes\n"
+                fd.write(header)
                 for c in s.chordify().flat.notes:
                     attributes = (
-                        c.offset,
                         c.measureNumber,
                         c.beat,
+                        c.offset,
                         c.duration.quarterLength,
                         tuple([n.nameWithOctave for n in c])
                     )
