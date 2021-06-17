@@ -1,13 +1,15 @@
 ## Digital Collections of Beethoven Piano Sonatas
 
-This site is a dedicated resource presenting a note-by-note comparison between two digital transcriptions of the Beethoven Piano Sonatas:
+Néstor Nápoles López
+
+This site is a dedicated resource I made presenting a note-by-note comparison between two digital transcriptions of the Beethoven Piano Sonatas:
 
 - ClassicMan's [MuseScore Transcriptions](https://musescore.com/user/19710/sets/54311)
 - Craig Sapp's [Humdrum Transcriptions](http://kern.humdrum.org/search?s=t&keyword=Beethoven)
 
 Both of these resources can be accessed through the corresponding websites or authors.
 
-In this website, we show a comparison of the musical content between these two transcriptions, with the objective of improving the overall quality of both transcriptions.
+In this website, I show a comparison of the musical content between these two transcriptions, with the objective of improving the overall quality of both transcriptions.
 
 The main objective is to compare the notes in one transcription to the notes in the other transcription. This serves somewhat as a "peer-review" of both transcriptions with each other and, hopefully, as a *wrong-note* finder for both transcriptions.
 
